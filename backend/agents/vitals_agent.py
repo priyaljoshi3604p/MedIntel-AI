@@ -1,7 +1,31 @@
-# Placeholder agent
-class VitalsAgent:
-    def __init__(self):
-        self.name = "VitalsAgent"
+from services.gemini_service import gemini
 
-    def process(self, payload):
-        return {"status": "ok", "message": "Vitals agent placeholder", "payload": payload}
+
+class VitalsAgent:
+
+    def analyze(self, vitals):
+
+        prompt = f"""
+You are an Emergency Medicine AI.
+
+Analyze the patient's vital signs.
+
+Vitals:
+{vitals}
+
+Return ONLY valid JSON.
+
+{{
+    "severity":"",
+    "risk_score":0,
+    "abnormal_parameters":[],
+    "possible_conditions":[],
+    "recommended_action":"",
+    "triage_priority":"Green | Yellow | Orange | Red"
+}}
+"""
+
+        return gemini.generate_json(prompt)
+
+
+vitals_agent = VitalsAgent()

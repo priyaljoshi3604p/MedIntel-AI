@@ -1,3 +1,10 @@
 fastapi
 uvicorn
+google-generativeai
+langchain
+langgraph
 python-dotenv
+chromadb
+pillow
+python-multipart
+pypdf

@@ -1,23 +1,32 @@
 from fastapi import FastAPI
 
-from api.upload import router as upload_router
-from api.analyze import router as analyze_router
-from api.reports import router as reports_router
-from api.health import router as health_router
+from api.symptom_api import router as symptom_router
+from api.vision_api import router as vision_router
+from api.report_api import router as report_router
+from api.vitals_api import router as vitals_router
+from api.knowledge_api import router as knowledge_router
+from api.decision_api import router as decision_router
+from api.explanation_api import router as explanation_router
 
 app = FastAPI(
-    title="MedIntel AI",
+    title="Enterprise Multimodal Clinical Intelligence Platform",
     version="1.0.0"
 )
 
-app.include_router(upload_router)
-app.include_router(analyze_router)
-app.include_router(reports_router)
-app.include_router(health_router)
+app.include_router(symptom_router)
+app.include_router(vision_router)
+app.include_router(report_router)
+app.include_router(vitals_router)
+app.include_router(knowledge_router)
+app.include_router(decision_router)
+app.include_router(explanation_router)
 
 
 @app.get("/")
 def home():
+
     return {
-        "message": "Welcome to MedIntel AI Backend!"
+        "project": "Enterprise Multimodal Clinical Intelligence Platform",
+        "version": "1.0.0",
+        "status": "Running"
     }

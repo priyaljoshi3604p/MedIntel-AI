@@ -1,7 +1,23 @@
-# Placeholder agent
-class KnowledgeAgent:
-    def __init__(self):
-        self.name = "KnowledgeAgent"
+from services.gemini_service import gemini
+from utils.file_loader import load_prompt
 
-    def process(self, payload):
-        return {"status": "ok", "message": "Knowledge agent placeholder", "payload": payload}
+
+class KnowledgeAgent:
+
+    def __init__(self):
+
+        self.prompt = load_prompt(
+            "knowledge_prompt.txt"
+        )
+
+    def search(self, query):
+
+        prompt = self.prompt.replace(
+            "{query}",
+            query
+        )
+
+        return gemini.generate_json(prompt)
+
+
+knowledge_agent = KnowledgeAgent()
