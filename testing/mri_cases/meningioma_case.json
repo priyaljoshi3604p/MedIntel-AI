@@ -1,0 +1,6 @@
+{
+    "case_id": "MRI_002",
+    "image": "meningioma_sample.jpg",
+    "expected_class": "meningioma",
+    "severity": "moderate"
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "CASE_003",
+  "patient": {
+    "patient_id": "DEMO_003",
+    "age": 42,
+    "sex": "Female"
+  },
+  "symptoms": [
+    "persistent cough",
+    "mild shortness of breath",
+    "fatigue"
+  ],
+  "vitals": {
+    "blood_pressure": "132/84 mmHg",
+    "heart_rate": 88,
+    "spo2": 95,
+    "temperature_c": 37.6,
+    "respiratory_rate": 19
+  },
+  "duration": "5 days",
+  "severity": "moderate",
+  "expected_risk": "moderate",
+  "expected_action": "clinical evaluation recommended"
+}

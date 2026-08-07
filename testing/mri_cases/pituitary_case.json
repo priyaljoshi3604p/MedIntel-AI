@@ -1,0 +1,6 @@
+{
+    "case_id": "MRI_003",
+    "image": "pituitary_sample.jpg",
+    "expected_class": "pituitary",
+    "severity": "moderate"
+}

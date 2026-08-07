@@ -1,0 +1,23 @@
+CASE_001 — Synthetic Patient Audio Transcript
+
+Patient ID: DEMO_001
+
+Transcript:
+
+"I've been having discomfort in my chest for about 45 minutes.
+I'm also feeling short of breath and a little dizzy. The discomfort
+started recently and hasn't completely gone away."
+
+Data type: Synthetic transcript for software testing.
+
+Expected extracted symptoms:
+- Chest discomfort
+- Shortness of breath
+- Dizziness
+
+Expected duration:
+Approximately 45 minutes
+
+Disclaimer:
+This is synthetic data created for software testing and demonstration.
+It is not a real patient recording or clinical statement.

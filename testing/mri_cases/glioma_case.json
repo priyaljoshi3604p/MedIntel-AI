@@ -1,0 +1,6 @@
+{
+    "case_id": "MRI_001",
+    "image": "glioma_sample.jpg",
+    "expected_class": "glioma",
+    "severity": "high"
+}

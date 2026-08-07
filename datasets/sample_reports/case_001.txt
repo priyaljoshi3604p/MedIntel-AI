@@ -1,0 +1,35 @@
+PATIENT REPORT — CASE_001
+
+Patient ID: DEMO_001
+Age: 54
+Sex: Female
+Encounter Type: Emergency
+
+Presenting Symptoms:
+
+* Chest discomfort
+* Shortness of breath
+* Dizziness
+
+Reported Duration:
+Approximately 45 minutes.
+
+Vital Signs:
+
+* Blood Pressure: 158/96 mmHg
+* Heart Rate: 108 bpm
+* SpO2: 93%
+* Temperature: 37.2 °C
+* Respiratory Rate: 22/min
+
+Clinical Context:
+The patient reports new-onset chest discomfort associated with shortness of breath and dizziness.
+
+Reference Testing Label:
+High-risk presentation requiring urgent clinical evaluation.
+
+Data Type:
+Synthetic data created for software testing and demonstration.
+
+Disclaimer:
+This is not a real patient record and must not be used for clinical diagnosis or treatment.

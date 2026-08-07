@@ -1,0 +1,15 @@
+{
+  "case_id": "EDGE_001",
+  "patient": {
+    "patient_id": "DEMO_EDGE_001",
+    "age": 45,
+    "sex": "Female"
+  },
+  "symptoms": [
+    "headache",
+    "fatigue"
+  ],
+  "vitals": null,
+  "duration": "1 day",
+  "severity": "unknown"
+}

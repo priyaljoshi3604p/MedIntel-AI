@@ -1,0 +1,14 @@
+{
+  "case_id": "EDGE_004",
+  "expected": {
+    "input_valid": false,
+    "risk_level": "undetermined",
+    "requires_better_input": true
+  },
+  "evaluation_notes": [
+    "System should detect that the image quality is insufficient for reliable analysis.",
+    "System should not invent findings from an unclear image.",
+    "System should communicate the limitation to the user.",
+    "System should request a clearer or suitable image."
+  ]
+}

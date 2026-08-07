@@ -1,0 +1,14 @@
+{
+  "case_id": "EDGE_003",
+  "expected": {
+    "input_valid": true,
+    "risk_level": "undetermined",
+    "requires_clinical_review": true
+  },
+  "evaluation_notes": [
+    "System should recognize that different information sources provide different signals.",
+    "System should not assume that normal vital signs eliminate clinical concern.",
+    "System should communicate uncertainty.",
+    "System should recommend appropriate clinical review rather than provide a definitive diagnosis."
+  ]
+}

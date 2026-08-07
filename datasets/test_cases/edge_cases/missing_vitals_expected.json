@@ -1,0 +1,13 @@
+{
+  "case_id": "EDGE_001",
+  "expected": {
+    "risk_level": "undetermined",
+    "requires_additional_information": true
+  },
+  "evaluation_notes": [
+    "System should detect that vital signs are missing.",
+    "System should not invent or assume vital values.",
+    "System should clearly communicate uncertainty.",
+    "System should request or recommend obtaining the missing information."
+  ]
+}

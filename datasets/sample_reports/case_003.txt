@@ -1,0 +1,35 @@
+PATIENT REPORT — CASE_003
+
+Patient ID: DEMO_003
+Age: 42
+Sex: Female
+Encounter Type: General consultation
+
+Presenting Symptoms:
+
+* Persistent cough
+* Mild shortness of breath
+* Fatigue
+
+Reported Duration:
+Approximately 5 days.
+
+Vital Signs:
+
+* Blood Pressure: 132/84 mmHg
+* Heart Rate: 88 bpm
+* SpO2: 95%
+* Temperature: 37.6 °C
+* Respiratory Rate: 19/min
+
+Reference Testing Label:
+Moderate-risk presentation for this synthetic test case.
+
+Reference Action:
+Clinical evaluation recommended.
+
+Data Type:
+Synthetic data created for software testing and demonstration.
+
+Disclaimer:
+This is not a real patient record and must not be used for clinical diagnosis or treatment.

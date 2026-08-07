@@ -1,0 +1,14 @@
+{
+  "case_id": "EDGE_002",
+  "expected": {
+    "input_valid": false,
+    "risk_level": "undetermined",
+    "requires_data_validation": true
+  },
+  "evaluation_notes": [
+    "System should detect physiologically invalid or malformed vital values.",
+    "System should not use invalid values for risk assessment.",
+    "System should clearly identify the affected fields.",
+    "System should request corrected or verified measurements."
+  ]
+}

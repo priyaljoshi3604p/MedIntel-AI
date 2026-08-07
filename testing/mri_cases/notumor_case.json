@@ -1,0 +1,6 @@
+{
+    "case_id": "MRI_004",
+    "image": "normal_brain.jpg",
+    "expected_class": "notumor",
+    "severity": "low"
+}

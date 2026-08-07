@@ -1,0 +1,20 @@
+{
+  "case_id": "EDGE_002",
+  "patient": {
+    "patient_id": "DEMO_EDGE_002",
+    "age": 38,
+    "sex": "Male"
+  },
+  "symptoms": [
+    "fatigue"
+  ],
+  "vitals": {
+    "blood_pressure": "850/20 mmHg",
+    "heart_rate": -10,
+    "spo2": 150,
+    "temperature_c": 99.9,
+    "respiratory_rate": 0
+  },
+  "duration": "1 day",
+  "severity": "unknown"
+}

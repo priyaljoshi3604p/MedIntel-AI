@@ -1,0 +1,23 @@
+{
+  "case_id": "CASE_002",
+  "patient": {
+    "patient_id": "DEMO_002",
+    "age": 26,
+    "sex": "Male"
+  },
+  "symptoms": [
+    "mild headache",
+    "fatigue"
+  ],
+  "vitals": {
+    "blood_pressure": "118/76 mmHg",
+    "heart_rate": 72,
+    "spo2": 98,
+    "temperature_c": 36.8,
+    "respiratory_rate": 16
+  },
+  "duration": "2 days",
+  "severity": "mild",
+  "expected_risk": "low",
+  "expected_action": "routine clinical evaluation if symptoms persist or worsen"
+}

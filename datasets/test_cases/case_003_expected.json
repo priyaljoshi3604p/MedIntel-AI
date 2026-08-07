@@ -1,0 +1,12 @@
+{
+  "case_id": "CASE_003",
+  "expected": {
+    "risk_level": "moderate",
+    "requires_urgent_evaluation": false
+  },
+  "evaluation_notes": [
+    "System should recognize the persistent symptoms and mild physiological abnormalities.",
+    "System should recommend clinical evaluation.",
+    "System should avoid presenting a definitive diagnosis."
+  ]
+}

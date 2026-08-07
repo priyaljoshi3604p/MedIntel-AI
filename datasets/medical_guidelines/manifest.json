@@ -1,0 +1,23 @@
+{
+  "dataset_name": "MedIntel-AI Clinical Knowledge Base",
+  "version": "0.1.0",
+  "purpose": "Track reference documents used by the clinical knowledge retrieval system.",
+  "documents": [
+    {
+      "document_id": "WHO_ECT_001",
+      "source_id": "SOURCE_002",
+      "title": "WHO Emergency Care Toolkit",
+      "organization": "World Health Organization",
+      "status": "source_registered",
+      "local_file": null
+    },
+    {
+      "document_id": "AHA_ACC_CHEST_001",
+      "source_id": "SOURCE_003",
+      "title": "2021 Guideline for the Evaluation and Diagnosis of Chest Pain",
+      "organization": "American Heart Association / American College of Cardiology",
+      "status": "source_registered",
+      "local_file": null
+    }
+  ]
+}

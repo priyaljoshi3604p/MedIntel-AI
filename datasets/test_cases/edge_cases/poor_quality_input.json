@@ -1,0 +1,20 @@
+{
+  "case_id": "EDGE_004",
+  "patient": {
+    "patient_id": "DEMO_EDGE_004",
+    "age": 50,
+    "sex": "Male"
+  },
+  "input": {
+    "type": "medical_image",
+    "quality": "poor",
+    "issues": [
+      "low_resolution",
+      "motion_blur",
+      "partially_obscured"
+    ]
+  },
+  "symptoms": [
+    "headache"
+  ]
+}

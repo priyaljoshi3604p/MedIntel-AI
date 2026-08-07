@@ -1,0 +1,12 @@
+{
+  "case_id": "CASE_001",
+  "expected": {
+    "risk_level": "high",
+    "requires_urgent_evaluation": true
+  },
+  "evaluation_notes": [
+    "System should recognize the combination of reported symptoms and abnormal vital signs.",
+    "System should avoid presenting a definitive diagnosis.",
+    "System should recommend appropriate clinical evaluation."
+  ]
+}
