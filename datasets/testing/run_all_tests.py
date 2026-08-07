@@ -3,11 +3,14 @@ import sys
 
 
 TESTS = [
+   
     "datasets/testing/validate_datasets.py",
     "datasets/testing/validate_edge_cases.py",
     "datasets/testing/validate_brain_mri.py",
     "testing/validate_metadata.py",
-    "testing/mri_evaluator.py"
+    "testing/mri_evaluator.py",
+    "testing/validate_clinical.py",
+    "testing/clinical_consistency.py"
 ]
 
 
